@@ -57,7 +57,7 @@ digraph ID3_Tree {
 (1)
 ", weight=6]
 14 -> 16 [ label = ">0.50"];
-"17" [shape=box, style=filled, label="Nombres
+"17" [shape=box, style=filled, label="Nombre.1
 ", weight=5]
 13 -> 17 [ label = ">1.50"];
 "18" [shape=box, style=filled, label="BERNARDO ALTAMIRANO GARCIA
@@ -74,7 +74,7 @@ digraph ID3_Tree {
 "21" [shape=box, style=filled, label="Semestre
 ", weight=3]
 20 -> 21 [ label = "<=0.50"];
-"22" [shape=box, style=filled, label="Nombres
+"22" [shape=box, style=filled, label="Nombre.1
 ", weight=4]
 21 -> 22 [ label = "<=3.50"];
 "23" [shape=box, style=filled, label="Proyecto 2
@@ -92,7 +92,7 @@ digraph ID3_Tree {
 (1)
 ", weight=5]
 22 -> 26 [ label = ">0.50"];
-"27" [shape=box, style=filled, label="Nombres
+"27" [shape=box, style=filled, label="Nombre.1
 ", weight=4]
 21 -> 27 [ label = ">3.50"];
 "28" [shape=box, style=filled, label="EDUARDO PESQUEIRA ZORRILLA
@@ -124,7 +124,7 @@ digraph ID3_Tree {
 (1)
 ", weight=6]
 33 -> 35 [ label = ">1.50"];
-"36" [shape=box, style=filled, label="Nombres
+"36" [shape=box, style=filled, label="Nombre.1
 ", weight=4]
 30 -> 36 [ label = ">2.50"];
 "37" [shape=box, style=filled, label="IAN ZAIDENWEBER DORENBAUM

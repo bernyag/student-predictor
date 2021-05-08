@@ -1,0 +1,133 @@
+digraph ID3_Tree {
+"0" [shape=box, style=filled, label="Carrera
+", weight=1]
+"1" [shape=box, style=filled, label="GUILLERMO JORGE NARANJO MUEDANO
+(1)
+", weight=2]
+0 -> 1 [ label = "Ciencia de Datos"];
+"2" [shape=box, style=filled, label="Nombres
+", weight=2]
+0 -> 2 [ label = "Ing, en Computación y Mat. Aplicadas"];
+"3" [shape=box, style=filled, label="Genero
+", weight=3]
+2 -> 3 [ label = "<=1.50"];
+"4" [shape=box, style=filled, label="SOFIA ALBERT TASSIER
+(1)
+", weight=4]
+3 -> 4 [ label = "F"];
+"5" [shape=box, style=filled, label="MARIANO FRANCO GOMEZ
+(1)
+", weight=4]
+3 -> 5 [ label = "M"];
+"6" [shape=box, style=filled, label="Semestre
+", weight=3]
+2 -> 6 [ label = ">1.50"];
+"7" [shape=box, style=filled, label="ANDRES MIGUEL QUEVEDO
+(1)
+", weight=4]
+6 -> 7 [ label = "<=7.50"];
+"8" [shape=box, style=filled, label="FRANCISCO JAVIER ARAMBURU ALVAREZ
+(1)
+", weight=4]
+6 -> 8 [ label = ">7.50"];
+"9" [shape=box, style=filled, label="DIEGO HERNANDEZ DELGADO
+(1)
+", weight=2]
+0 -> 9 [ label = "Ing, en Computación y Mecatrónica"];
+"10" [shape=box, style=filled, label="SILVESTRE LEONARDO GONZALEZ ABREU
+(1)
+", weight=2]
+0 -> 10 [ label = "Ing. Industrial y Mecatrónica"];
+"11" [shape=box, style=filled, label="Semestre
+", weight=2]
+0 -> 11 [ label = "Ing. en Computación"];
+"12" [shape=box, style=filled, label="CARLOS ALBERTO DELGADO ELIZONDO
+(1)
+", weight=3]
+11 -> 12 [ label = "<=7.50"];
+"13" [shape=box, style=filled, label="BERNARDO ALTAMIRANO GARCIA
+(1)
+", weight=3]
+11 -> 13 [ label = ">7.50"];
+"14" [shape=box, style=filled, label="ANDREA DE ANDA KURI
+(1)
+", weight=2]
+0 -> 14 [ label = "Ing. en Computación e Ing. Industrial"];
+"15" [shape=box, style=filled, label="ALEXANDER PERELMAN ARCQ
+(1)
+", weight=2]
+0 -> 15 [ label = "Ing. en Computación y Economía"];
+"16" [shape=box, style=filled, label="NATALIA HERNANDEZ CORNEJO
+(1)
+", weight=2]
+0 -> 16 [ label = "Ing. en Computación y Mat. Aplicadas"];
+"17" [shape=box, style=filled, label="JORGE EDGAR RODRIGUEZ ORTIZ LOYOLA
+(1)
+", weight=2]
+0 -> 17 [ label = "Ing. en Computación y Mecatrónica"];
+"18" [shape=box, style=filled, label="Semestre
+", weight=2]
+0 -> 18 [ label = "Ing. en Negocios"];
+"19" [shape=box, style=filled, label="ANTONINO GARCIA OCEJO
+(1)
+", weight=3]
+18 -> 19 [ label = "<=7.00"];
+"20" [shape=box, style=filled, label="Lentes
+", weight=3]
+18 -> 20 [ label = ">7.00"];
+"21" [shape=box, style=filled, label="EDUARDO PESQUEIRA ZORRILLA
+(1)
+", weight=4]
+20 -> 21 [ label = "No"];
+"22" [shape=box, style=filled, label="IAN ZAIDENWEBER DORENBAUM
+(1)
+", weight=4]
+20 -> 22 [ label = "Si"];
+"23" [shape=box, style=filled, label="Semestre
+", weight=2]
+0 -> 23 [ label = "Mat. Aplicadas"];
+"24" [shape=box, style=filled, label="MIGUEL ANGEL QUINTERO VILLEGAS
+(1)
+", weight=3]
+23 -> 24 [ label = "<=5.50"];
+"25" [shape=box, style=filled, label="Genero
+", weight=3]
+23 -> 25 [ label = ">5.50"];
+"26" [shape=box, style=filled, label="ZARA MARIA UBALDO GALICIA
+(1)
+", weight=4]
+25 -> 26 [ label = "F"];
+"27" [shape=box, style=filled, label="JOSE FRANCISCO GARDUÑO SUCHIL
+(1)
+", weight=4]
+25 -> 27 [ label = "M"];
+"28" [shape=box, style=filled, label="Semestre
+", weight=2]
+0 -> 28 [ label = "Mecatrónica"];
+"29" [shape=box, style=filled, label="Lentes
+", weight=3]
+28 -> 29 [ label = "<=9.00"];
+"30" [shape=box, style=filled, label="MAURICIO MARTINEZ RIEDE
+(1)
+", weight=4]
+29 -> 30 [ label = "No"];
+"31" [shape=box, style=filled, label="LUIS ANDRES GOMEZ MARTINEZ
+(1)
+", weight=4]
+29 -> 31 [ label = "Si"];
+"32" [shape=box, style=filled, label="Nombres
+", weight=3]
+28 -> 32 [ label = ">9.00"];
+"33" [shape=box, style=filled, label="MARIO GALVEZ LOPEZ
+(1)
+", weight=4]
+32 -> 33 [ label = "<=1.50"];
+"34" [shape=box, style=filled, label="LUIS FERNANDO MENDEZ CRUZ
+(1)
+", weight=4]
+32 -> 34 [ label = ">1.50"];
+{rank=same; 0;};
+{rank=same; 1;2;9;10;11;14;15;16;17;18;23;28;};
+{rank=same; 3;6;12;13;19;20;24;25;29;32;};
+{rank=same; 4;5;7;8;21;22;26;27;30;31;33;34;};
+}

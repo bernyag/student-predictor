@@ -61,70 +61,78 @@ digraph ID3_Tree {
 (1)
 ", weight=6]
 15 -> 17 [ label = ">0.50"];
-"18" [shape=box, style=filled, label="Semestre
+"18" [shape=box, style=filled, label="Lentes
 ", weight=2]
 0 -> 18 [ label = ">0.50"];
-"19" [shape=box, style=filled, label="Nombre.1
+"19" [shape=box, style=filled, label="Semestre
 ", weight=3]
-18 -> 19 [ label = "<=3.50"];
+18 -> 19 [ label = "<=0.50"];
 "20" [shape=box, style=filled, label="Genero
 ", weight=4]
-19 -> 20 [ label = "<=0.50"];
-"21" [shape=box, style=filled, label="NATALIA HERNANDEZ CORNEJO
-(1/1)
+19 -> 20 [ label = "<=4.00"];
+"21" [shape=box, style=filled, label="SOFIA ALBERT TASSIER
+(1)
 ", weight=5]
 20 -> 21 [ label = "<=0.50"];
-"22" [shape=box, style=filled, label="Proyecto 2
-", weight=5]
-20 -> 22 [ label = ">0.50"];
-"23" [shape=box, style=filled, label="MARIANO FRANCO GOMEZ
-(1)
-", weight=6]
-22 -> 23 [ label = "<=1.50"];
-"24" [shape=box, style=filled, label="ALEXANDER PERELMAN ARCQ
-(1)
-", weight=6]
-22 -> 24 [ label = ">1.50"];
-"25" [shape=box, style=filled, label="Lentes
-", weight=4]
-19 -> 25 [ label = ">0.50"];
-"26" [shape=box, style=filled, label="CARLOS ALBERTO DELGADO ELIZONDO
+"22" [shape=box, style=filled, label="CARLOS ALBERTO DELGADO ELIZONDO
 (1/1)
 ", weight=5]
-25 -> 26 [ label = "<=0.50"];
-"27" [shape=box, style=filled, label="ANDRES MIGUEL QUEVEDO
+20 -> 22 [ label = ">0.50"];
+"23" [shape=box, style=filled, label="Genero
+", weight=4]
+19 -> 23 [ label = ">4.00"];
+"24" [shape=box, style=filled, label="ANDREA DE ANDA KURI
 (1)
 ", weight=5]
-25 -> 27 [ label = ">0.50"];
-"28" [shape=box, style=filled, label="Lentes
+23 -> 24 [ label = "<=0.50"];
+"25" [shape=box, style=filled, label="BERNARDO ALTAMIRANO GARCIA
+(1)
+", weight=5]
+23 -> 25 [ label = ">0.50"];
+"26" [shape=box, style=filled, label="Semestre
 ", weight=3]
-18 -> 28 [ label = ">3.50"];
-"29" [shape=box, style=filled, label="Genero
+18 -> 26 [ label = ">0.50"];
+"27" [shape=box, style=filled, label="Genero
 ", weight=4]
-28 -> 29 [ label = "<=0.50"];
-"30" [shape=box, style=filled, label="ANDREA DE ANDA KURI
+26 -> 27 [ label = "<=3.50"];
+"28" [shape=box, style=filled, label="NATALIA HERNANDEZ CORNEJO
 (1)
 ", weight=5]
+27 -> 28 [ label = "<=0.50"];
+"29" [shape=box, style=filled, label="Nombre.1
+", weight=5]
+27 -> 29 [ label = ">0.50"];
+"30" [shape=box, style=filled, label="Proyecto 2
+", weight=6]
 29 -> 30 [ label = "<=0.50"];
-"31" [shape=box, style=filled, label="BERNARDO ALTAMIRANO GARCIA
+"31" [shape=box, style=filled, label="MARIANO FRANCO GOMEZ
 (1)
-", weight=5]
-29 -> 31 [ label = ">0.50"];
-"32" [shape=box, style=filled, label="Nombre.1
+", weight=7]
+30 -> 31 [ label = "<=1.50"];
+"32" [shape=box, style=filled, label="ALEXANDER PERELMAN ARCQ
+(1)
+", weight=7]
+30 -> 32 [ label = ">1.50"];
+"33" [shape=box, style=filled, label="ANDRES MIGUEL QUEVEDO
+(1)
+", weight=6]
+29 -> 33 [ label = ">0.50"];
+"34" [shape=box, style=filled, label="Nombre.1
 ", weight=4]
-28 -> 32 [ label = ">0.50"];
-"33" [shape=box, style=filled, label="DIEGO HERNANDEZ DELGADO
+26 -> 34 [ label = ">3.50"];
+"35" [shape=box, style=filled, label="DIEGO HERNANDEZ DELGADO
 (1)
 ", weight=5]
-32 -> 33 [ label = "<=0.50"];
-"34" [shape=box, style=filled, label="FRANCISCO JAVIER ARAMBURU ALVAREZ
+34 -> 35 [ label = "<=0.50"];
+"36" [shape=box, style=filled, label="FRANCISCO JAVIER ARAMBURU ALVAREZ
 (1)
 ", weight=5]
-32 -> 34 [ label = ">0.50"];
+34 -> 36 [ label = ">0.50"];
 {rank=same; 0;};
 {rank=same; 1;18;};
-{rank=same; 2;7;19;28;};
-{rank=same; 3;4;8;13;20;25;29;32;};
-{rank=same; 5;6;9;12;14;15;21;22;26;27;30;31;33;34;};
-{rank=same; 10;11;16;17;23;24;};
+{rank=same; 2;7;19;26;};
+{rank=same; 3;4;8;13;20;23;27;34;};
+{rank=same; 5;6;9;12;14;15;21;22;24;25;28;29;35;36;};
+{rank=same; 10;11;16;17;30;33;};
+{rank=same; 31;32;};
 }

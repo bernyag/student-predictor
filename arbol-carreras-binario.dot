@@ -18,110 +18,117 @@ digraph ID3_Tree {
 "5" [shape=box, style=filled, label="Genero
 ", weight=3]
 4 -> 5 [ label = "<=1.50"];
-"6" [shape=box, style=filled, label="NATALIA HERNANDEZ CORNEJO
-(1/1)
+"6" [shape=box, style=filled, label="Lentes
 ", weight=4]
 5 -> 6 [ label = "F"];
-"7" [shape=box, style=filled, label="Semestre
+"7" [shape=box, style=filled, label="SOFIA ALBERT TASSIER
+(1)
+", weight=5]
+6 -> 7 [ label = "No"];
+"8" [shape=box, style=filled, label="NATALIA HERNANDEZ CORNEJO
+(1)
+", weight=5]
+6 -> 8 [ label = "Si"];
+"9" [shape=box, style=filled, label="Semestre
 ", weight=4]
-5 -> 7 [ label = "M"];
-"8" [shape=box, style=filled, label="MARIANO FRANCO GOMEZ
+5 -> 9 [ label = "M"];
+"10" [shape=box, style=filled, label="MARIANO FRANCO GOMEZ
 (1)
 ", weight=5]
-7 -> 8 [ label = "<=6.50"];
-"9" [shape=box, style=filled, label="DIEGO HERNANDEZ DELGADO
+9 -> 10 [ label = "<=6.50"];
+"11" [shape=box, style=filled, label="DIEGO HERNANDEZ DELGADO
 (1)
 ", weight=5]
-7 -> 9 [ label = ">6.50"];
-"10" [shape=box, style=filled, label="Lentes
+9 -> 11 [ label = ">6.50"];
+"12" [shape=box, style=filled, label="Lentes
 ", weight=3]
-4 -> 10 [ label = ">1.50"];
-"11" [shape=box, style=filled, label="CARLOS ALBERTO DELGADO ELIZONDO
+4 -> 12 [ label = ">1.50"];
+"13" [shape=box, style=filled, label="CARLOS ALBERTO DELGADO ELIZONDO
 (1/1)
 ", weight=4]
-10 -> 11 [ label = "No"];
-"12" [shape=box, style=filled, label="Computacion?
-", weight=4]
-10 -> 12 [ label = "Si"];
-"13" [shape=box, style=filled, label="JOSE FRANCISCO GARDUÑO SUCHIL
-(1)
-", weight=5]
 12 -> 13 [ label = "No"];
-"14" [shape=box, style=filled, label="ANDRES MIGUEL QUEVEDO
-(1)
-", weight=5]
-12 -> 14 [ label = "Si"];
-"15" [shape=box, style=filled, label="Nombres
-", weight=2]
-0 -> 15 [ label = "Damas"];
-"16" [shape=box, style=filled, label="Computacion?
-", weight=3]
-15 -> 16 [ label = "<=1.50"];
-"17" [shape=box, style=filled, label="Semestre
+"14" [shape=box, style=filled, label="Computacion?
 ", weight=4]
-16 -> 17 [ label = "No"];
-"18" [shape=box, style=filled, label="ANTONINO GARCIA OCEJO
+12 -> 14 [ label = "Si"];
+"15" [shape=box, style=filled, label="JOSE FRANCISCO GARDUÑO SUCHIL
 (1)
 ", weight=5]
-17 -> 18 [ label = "<=7.00"];
-"19" [shape=box, style=filled, label="Lentes
+14 -> 15 [ label = "No"];
+"16" [shape=box, style=filled, label="ANDRES MIGUEL QUEVEDO
+(1)
 ", weight=5]
-17 -> 19 [ label = ">7.00"];
-"20" [shape=box, style=filled, label="EDUARDO PESQUEIRA ZORRILLA
+14 -> 16 [ label = "Si"];
+"17" [shape=box, style=filled, label="Nombres
+", weight=2]
+0 -> 17 [ label = "Damas"];
+"18" [shape=box, style=filled, label="Computacion?
+", weight=3]
+17 -> 18 [ label = "<=1.50"];
+"19" [shape=box, style=filled, label="Semestre
+", weight=4]
+18 -> 19 [ label = "No"];
+"20" [shape=box, style=filled, label="ANTONINO GARCIA OCEJO
+(1)
+", weight=5]
+19 -> 20 [ label = "<=7.00"];
+"21" [shape=box, style=filled, label="Lentes
+", weight=5]
+19 -> 21 [ label = ">7.00"];
+"22" [shape=box, style=filled, label="EDUARDO PESQUEIRA ZORRILLA
 (1/1)
 ", weight=6]
-19 -> 20 [ label = "No"];
-"21" [shape=box, style=filled, label="IAN ZAIDENWEBER DORENBAUM
+21 -> 22 [ label = "No"];
+"23" [shape=box, style=filled, label="IAN ZAIDENWEBER DORENBAUM
 (1)
 ", weight=6]
-19 -> 21 [ label = "Si"];
-"22" [shape=box, style=filled, label="Semestre
+21 -> 23 [ label = "Si"];
+"24" [shape=box, style=filled, label="Semestre
 ", weight=4]
-16 -> 22 [ label = "Si"];
-"23" [shape=box, style=filled, label="ALEXANDER PERELMAN ARCQ
+18 -> 24 [ label = "Si"];
+"25" [shape=box, style=filled, label="ALEXANDER PERELMAN ARCQ
 (1)
 ", weight=5]
-22 -> 23 [ label = "<=6.50"];
-"24" [shape=box, style=filled, label="Genero
+24 -> 25 [ label = "<=6.50"];
+"26" [shape=box, style=filled, label="Genero
 ", weight=5]
-22 -> 24 [ label = ">6.50"];
-"25" [shape=box, style=filled, label="ANDREA DE ANDA KURI
+24 -> 26 [ label = ">6.50"];
+"27" [shape=box, style=filled, label="ANDREA DE ANDA KURI
 (1)
 ", weight=6]
-24 -> 25 [ label = "F"];
-"26" [shape=box, style=filled, label="BERNARDO ALTAMIRANO GARCIA
+26 -> 27 [ label = "F"];
+"28" [shape=box, style=filled, label="BERNARDO ALTAMIRANO GARCIA
 (1)
 ", weight=6]
-24 -> 26 [ label = "M"];
-"27" [shape=box, style=filled, label="Semestre
+26 -> 28 [ label = "M"];
+"29" [shape=box, style=filled, label="Semestre
 ", weight=3]
-15 -> 27 [ label = ">1.50"];
-"28" [shape=box, style=filled, label="GUILLERMO JORGE NARANJO MUEDANO
+17 -> 29 [ label = ">1.50"];
+"30" [shape=box, style=filled, label="GUILLERMO JORGE NARANJO MUEDANO
 (1/2)
 ", weight=4]
-27 -> 28 [ label = "<=8.50"];
-"29" [shape=box, style=filled, label="Computacion?
+29 -> 30 [ label = "<=8.50"];
+"31" [shape=box, style=filled, label="Computacion?
 ", weight=4]
-27 -> 29 [ label = ">8.50"];
-"30" [shape=box, style=filled, label="Genero
+29 -> 31 [ label = ">8.50"];
+"32" [shape=box, style=filled, label="Genero
 ", weight=5]
-29 -> 30 [ label = "No"];
-"31" [shape=box, style=filled, label="ZARA MARIA UBALDO GALICIA
+31 -> 32 [ label = "No"];
+"33" [shape=box, style=filled, label="ZARA MARIA UBALDO GALICIA
 (1)
 ", weight=6]
-30 -> 31 [ label = "F"];
-"32" [shape=box, style=filled, label="LUIS FERNANDO MENDEZ CRUZ
+32 -> 33 [ label = "F"];
+"34" [shape=box, style=filled, label="LUIS FERNANDO MENDEZ CRUZ
 (1)
 ", weight=6]
-30 -> 32 [ label = "M"];
-"33" [shape=box, style=filled, label="FRANCISCO JAVIER ARAMBURU ALVAREZ
+32 -> 34 [ label = "M"];
+"35" [shape=box, style=filled, label="FRANCISCO JAVIER ARAMBURU ALVAREZ
 (1)
 ", weight=5]
-29 -> 33 [ label = "Si"];
+31 -> 35 [ label = "Si"];
 {rank=same; 0;};
-{rank=same; 1;4;15;};
-{rank=same; 2;3;5;10;16;27;};
-{rank=same; 6;7;11;12;17;22;28;29;};
-{rank=same; 8;9;13;14;18;19;23;24;30;33;};
-{rank=same; 20;21;25;26;31;32;};
+{rank=same; 1;4;17;};
+{rank=same; 2;3;5;12;18;29;};
+{rank=same; 6;9;13;14;19;24;30;31;};
+{rank=same; 7;8;10;11;15;16;20;21;25;26;32;35;};
+{rank=same; 22;23;27;28;33;34;};
 }
